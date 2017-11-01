@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63DA45A71FAA269500D1AF7D /* FieldSurveyJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA45A61FAA269500D1AF7D /* FieldSurveyJSONLoader.swift */; };
 		63E19BE61FA96FF900DA9C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E19BE51FA96FF900DA9C30 /* AppDelegate.swift */; };
 		63E19BEB1FA96FF900DA9C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E19BE91FA96FF900DA9C30 /* Main.storyboard */; };
 		63E19BED1FA96FF900DA9C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E19BEC1FA96FF900DA9C30 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63DA45A61FAA269500D1AF7D /* FieldSurveyJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONLoader.swift; sourceTree = "<group>"; };
 		63E19BE21FA96FF900DA9C30 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E19BE51FA96FF900DA9C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E19BEA1FA96FF900DA9C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				63E19BFC1FA974FE00DA9C30 /* Classification.swift */,
 				63E19BFE1FA976D200DA9C30 /* Observation.swift */,
 				63E19C001FA979C500DA9C30 /* FieldSurveyJSONParser.swift */,
+				63DA45A61FAA269500D1AF7D /* FieldSurveyJSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				63E19BE61FA96FF900DA9C30 /* AppDelegate.swift in Sources */,
 				63E19BFF1FA976D200DA9C30 /* Observation.swift in Sources */,
 				63E19BFD1FA974FE00DA9C30 /* Classification.swift in Sources */,
+				63DA45A71FAA269500D1AF7D /* FieldSurveyJSONLoader.swift in Sources */,
 				63E19C011FA979C500DA9C30 /* FieldSurveyJSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
